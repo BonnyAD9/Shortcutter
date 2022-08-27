@@ -14,7 +14,7 @@ Create global shortcuts in Windows.
 - When you add shortcut you must restart the program so that it takes effect
 
 #### Example
-```
+```shell
 # Toggle audio output device (powershell script run via vbscript (beacause of a bug where the terminal window appears))
 ctrl+alt+num0 C:\Windows\System32\wscript.exe C:\VBScripts\hidden-ps.vbs X:\PSScripts\AudioSwap.ps1
 ```
