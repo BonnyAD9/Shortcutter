@@ -21,10 +21,16 @@ ctrl+alt+num0 C:\Windows\System32\wscript.exe C:\VBScripts\hidden-ps.vbs X:\PSSc
 Only the second line will be registered.
 
 ### Stopping program
-- Use `stop` as the first argument
+Use `stop` as the first argument
 ```shell
 > shortcutter stop
 ```
+Unless the program is running, this will actually start the program, so if you want to be sure that the pragram is stopped use
+```shell
+> shortcutter
+> shortcutter stop
+```
+there will always be only 1 instance running
 
 ## List of modifiers
 - alt
