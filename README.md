@@ -15,7 +15,7 @@ Create global shortcuts in Windows.
 
 #### Example
 ```
-# ctrl+alt+num0 "C:\Program Files\PowerShell\7\pwsh.exe" -windowstyle hidden -File X:\PSScripts\AudioSwap.ps1
+# Toggle audio output device (powershell script run via vbscript (beacause of a bug where the terminal window appears))
 ctrl+alt+num0 C:\Windows\System32\wscript.exe C:\VBScripts\hidden-ps.vbs X:\PSScripts\AudioSwap.ps1
 ```
 Only the second line will be registered.
