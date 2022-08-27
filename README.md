@@ -25,12 +25,12 @@ Use `stop` as the first argument
 ```shell
 > shortcutter stop
 ```
-Unless the program is running, this will actually start the program, so if you want to be sure that the pragram is stopped use
+Unless the program is running, this will actually start the program, so if you want to be sure that the pragram is stopped use:
 ```shell
 > shortcutter
 > shortcutter stop
 ```
-there will always be only 1 instance running
+This will work because there will always be only 1 instance running.
 
 ## List of modifiers
 - alt
